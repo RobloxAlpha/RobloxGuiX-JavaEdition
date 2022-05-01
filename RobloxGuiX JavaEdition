@@ -347,7 +347,7 @@ UICorner_21.Parent = MainFrameForJava
 
 -- Scripts:
 
-local function CTWP_fake_script() -- MainForJava.ToggleKey 
+local function XJKVRV_fake_script() -- MainForJava.ToggleKey 
 	local script = Instance.new('LocalScript', MainForJava)
 
 	local MainFrame = script.Parent.MainFrameForJava
@@ -370,8 +370,8 @@ local function CTWP_fake_script() -- MainForJava.ToggleKey
 		end
 	end)
 end
-coroutine.wrap(CTWP_fake_script)()
-local function VSQKT_fake_script() -- Loading.Draggable 
+coroutine.wrap(XJKVRV_fake_script)()
+local function FHHDEYS_fake_script() -- Loading.Draggable 
 	local script = Instance.new('LocalScript', Loading)
 
 	local UIS = game:GetService('UserInputService')
@@ -410,8 +410,8 @@ local function VSQKT_fake_script() -- Loading.Draggable
 	end)
 	
 end
-coroutine.wrap(VSQKT_fake_script)()
-local function JAXXT_fake_script() -- tct.LocalScript 
+coroutine.wrap(FHHDEYS_fake_script)()
+local function BYSUPB_fake_script() -- tct.LocalScript 
 	local script = Instance.new('LocalScript', tct)
 
 	script.Parent.Text = "Loading..."
@@ -433,8 +433,8 @@ local function JAXXT_fake_script() -- tct.LocalScript
 	script.Parent.Parent.Parent.Loading.Visible = false
 	script.Parent.Parent.Parent.MainFrameForJava.Visible = true
 end
-coroutine.wrap(JAXXT_fake_script)()
-local function UERX_fake_script() -- LoadUI.LocalScript 
+coroutine.wrap(BYSUPB_fake_script)()
+local function JTRNZ_fake_script() -- LoadUI.LocalScript 
 	local script = Instance.new('LocalScript', LoadUI)
 
 	-- Variables.
@@ -488,8 +488,8 @@ local function UERX_fake_script() -- LoadUI.LocalScript
 	game:GetService("StarterGui"):SetCoreGuiEnabled(Enum.CoreGuiType.All, true)
 	script.Parent:Destroy()
 end
-coroutine.wrap(UERX_fake_script)()
-local function SKKON_fake_script() -- Close.LocalScript 
+coroutine.wrap(JTRNZ_fake_script)()
+local function HJZG_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -497,8 +497,8 @@ local function SKKON_fake_script() -- Close.LocalScript
 		script.Parent.Parent.Parent.Loading.Visible = false
 	end)
 end
-coroutine.wrap(SKKON_fake_script)()
-local function WPSDKOU_fake_script() -- MainForJava.Share Destance 
+coroutine.wrap(HJZG_fake_script)()
+local function AJSRXOH_fake_script() -- MainForJava.Share Destance 
 	local script = Instance.new('LocalScript', MainForJava)
 
 	local plr = game.Players.LocalPlayer
@@ -510,8 +510,8 @@ local function WPSDKOU_fake_script() -- MainForJava.Share Destance
 		script.Parent.Loading.Visible = false
 	end
 end
-coroutine.wrap(WPSDKOU_fake_script)()
-local function HYXALV_fake_script() -- MainForJava.LocalScript 
+coroutine.wrap(AJSRXOH_fake_script)()
+local function TFBMGQR_fake_script() -- MainForJava.LocalScript 
 	local script = Instance.new('LocalScript', MainForJava)
 
 	local plr = game.Players.LocalPlayer
@@ -520,8 +520,8 @@ local function HYXALV_fake_script() -- MainForJava.LocalScript
 		game.StarterGui:SetCore("SendNotification", {Title = "Developer", Text = "Developer John"})
 	end
 end
-coroutine.wrap(HYXALV_fake_script)()
-local function MCYNJF_fake_script() -- tcttct.Draggable 
+coroutine.wrap(TFBMGQR_fake_script)()
+local function WNJCN_fake_script() -- tcttct.Draggable 
 	local script = Instance.new('LocalScript', tcttct)
 
 	local UIS = game:GetService('UserInputService')
@@ -560,8 +560,8 @@ local function MCYNJF_fake_script() -- tcttct.Draggable
 	end)
 	
 end
-coroutine.wrap(MCYNJF_fake_script)()
-local function GOGQMET_fake_script() -- Set.LocalScript 
+coroutine.wrap(WNJCN_fake_script)()
+local function DOBQG_fake_script() -- Set.LocalScript 
 	local script = Instance.new('LocalScript', Set)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -779,8 +779,8 @@ local function GOGQMET_fake_script() -- Set.LocalScript
 	
 	end)
 end
-coroutine.wrap(GOGQMET_fake_script)()
-local function FVNIMTW_fake_script() -- ScriptHub.LocalScript 
+coroutine.wrap(DOBQG_fake_script)()
+local function QMMKNCZ_fake_script() -- ScriptHub.LocalScript 
 	local script = Instance.new('LocalScript', ScriptHub)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -822,7 +822,7 @@ local function FVNIMTW_fake_script() -- ScriptHub.LocalScript
 		--Properties:
 	
 		ScriptHub.Name = "ScriptHub"
-		ScriptHub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+		ScriptHub.Parent = game.CoreGui
 		ScriptHub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 	
 		ScriptHubFrame.Name = "ScriptHubFrame"
@@ -1352,8 +1352,8 @@ local function FVNIMTW_fake_script() -- ScriptHub.LocalScript
 	
 	end)
 end
-coroutine.wrap(FVNIMTW_fake_script)()
-local function FYZKWI_fake_script() -- Script2.LocalScript 
+coroutine.wrap(QMMKNCZ_fake_script)()
+local function LQMO_fake_script() -- Script2.LocalScript 
 	local script = Instance.new('LocalScript', Script2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1365,8 +1365,8 @@ local function FYZKWI_fake_script() -- Script2.LocalScript
 		end
 	end)
 end
-coroutine.wrap(FYZKWI_fake_script)()
-local function OLJJO_fake_script() -- Maded.LocalScript 
+coroutine.wrap(LQMO_fake_script)()
+local function ORMPN_fake_script() -- Maded.LocalScript 
 	local script = Instance.new('LocalScript', Maded)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1374,8 +1374,8 @@ local function OLJJO_fake_script() -- Maded.LocalScript
 		game.StarterGui:SetCore("SendNotification", {Title = "Simple Ui Loaded.", Text = "This is Allowed For All so this is Simple UI Of Once Key if you died for you need get key again."})
 	end)
 end
-coroutine.wrap(OLJJO_fake_script)()
-local function SAIYUUL_fake_script() -- Shutdown.LocalScript 
+coroutine.wrap(ORMPN_fake_script)()
+local function ABPZXDF_fake_script() -- Shutdown.LocalScript 
 	local script = Instance.new('LocalScript', Shutdown)
 
 	local plr = game.Players.LocalPlayer
@@ -2552,8 +2552,8 @@ local function SAIYUUL_fake_script() -- Shutdown.LocalScript
 		end
 	end)
 end
-coroutine.wrap(SAIYUUL_fake_script)()
-local function XQEUJDM_fake_script() -- VIPGui.LocalScript 
+coroutine.wrap(ABPZXDF_fake_script)()
+local function QBWQKVV_fake_script() -- VIPGui.LocalScript 
 	local script = Instance.new('LocalScript', VIPGui)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2772,24 +2772,24 @@ local function XQEUJDM_fake_script() -- VIPGui.LocalScript
 		end
 	end)
 end
-coroutine.wrap(XQEUJDM_fake_script)()
-local function NXOY_fake_script() -- Credits.LocalScript 
+coroutine.wrap(QBWQKVV_fake_script)()
+local function XZFNE_fake_script() -- Credits.LocalScript 
 	local script = Instance.new('LocalScript', Credits)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game.StarterGui:SetCore("SendNotification", {Title = "Credits!", Text = "Discord : RobloxAlpha#4338"})
 	end)
 end
-coroutine.wrap(NXOY_fake_script)()
-local function TBCLKC_fake_script() -- MainFrameForJava.print 
+coroutine.wrap(XZFNE_fake_script)()
+local function AJEW_fake_script() -- MainFrameForJava.print 
 	local script = Instance.new('Script', MainFrameForJava)
 
 	print('Loading...')
 	wait(2)
 	print('Auth Checked Enjoy :)')
 end
-coroutine.wrap(TBCLKC_fake_script)()
-local function TPJMM_fake_script() -- MainFrameForJava.Draggable 
+coroutine.wrap(AJEW_fake_script)()
+local function FCMOEAO_fake_script() -- MainFrameForJava.Draggable 
 	local script = Instance.new('LocalScript', MainFrameForJava)
 
 	local UIS = game:GetService('UserInputService')
@@ -2828,8 +2828,8 @@ local function TPJMM_fake_script() -- MainFrameForJava.Draggable
 	end)
 	
 end
-coroutine.wrap(TPJMM_fake_script)()
-local function HKBSCG_fake_script() -- Close_2.LocalScript 
+coroutine.wrap(FCMOEAO_fake_script)()
+local function HVCP_fake_script() -- Close_2.LocalScript 
 	local script = Instance.new('LocalScript', Close_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2837,8 +2837,8 @@ local function HKBSCG_fake_script() -- Close_2.LocalScript
 		game.StarterGui:SetCore("SendNotification", {Title = "Closed", Text = "ROBLOX GUIX IS CLOSED!!"})
 	end)
 end
-coroutine.wrap(HKBSCG_fake_script)()
-local function MUDO_fake_script() -- OnlyPanel.Draggable 
+coroutine.wrap(HVCP_fake_script)()
+local function POBSGU_fake_script() -- OnlyPanel.Draggable 
 	local script = Instance.new('LocalScript', OnlyPanel)
 
 	local UIS = game:GetService('UserInputService')
@@ -2877,8 +2877,8 @@ local function MUDO_fake_script() -- OnlyPanel.Draggable
 	end)
 	
 end
-coroutine.wrap(MUDO_fake_script)()
-local function ZTTYPVU_fake_script() -- InfAmmo.LocalScript 
+coroutine.wrap(POBSGU_fake_script)()
+local function QUAGQJH_fake_script() -- InfAmmo.LocalScript 
 	local script = Instance.new('LocalScript', InfAmmo)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2892,8 +2892,8 @@ local function ZTTYPVU_fake_script() -- InfAmmo.LocalScript
 		gun.Spread = 5
 	end)
 end
-coroutine.wrap(ZTTYPVU_fake_script)()
-local function QWTNSM_fake_script() -- ScriptHubs2.Draggable 
+coroutine.wrap(QUAGQJH_fake_script)()
+local function IZTZ_fake_script() -- ScriptHubs2.Draggable 
 	local script = Instance.new('LocalScript', ScriptHubs2)
 
 	local UIS = game:GetService('UserInputService')
@@ -2932,12 +2932,12 @@ local function QWTNSM_fake_script() -- ScriptHubs2.Draggable
 	end)
 	
 end
-coroutine.wrap(QWTNSM_fake_script)()
-local function SZULLYR_fake_script() -- OwlHub.LocalScript 
+coroutine.wrap(IZTZ_fake_script)()
+local function LPHOW_fake_script() -- OwlHub.LocalScript 
 	local script = Instance.new('LocalScript', OwlHub)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
 	end)
 end
-coroutine.wrap(SZULLYR_fake_script)()
+coroutine.wrap(LPHOW_fake_script)()
