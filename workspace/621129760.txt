@@ -1,0 +1,1 @@
+{"FOV Radius":"800","Silent Aim":false,"Visuals Color":"Rainbow","Aim Part":"Head","View FOV":false,"ESP":false}

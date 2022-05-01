@@ -1,0 +1,1 @@
+{"Bhop":false,"Smoothness":"9","ESP":true,"Aim Part":"Head","Wallbang":true,"Aim Key":"MouseButton1","Anti Aim":true,"Tracers":false,"Aimbot":true,"Silent Aim":true}

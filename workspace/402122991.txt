@@ -1,0 +1,1 @@
+{"Noclip":true,"FOV":"78","Bhop":false,"JumpPower":"50","WalkSpeed":"22","ESP":false,"Silent Aim":true}

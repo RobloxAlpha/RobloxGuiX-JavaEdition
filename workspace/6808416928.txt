@@ -1,0 +1,1 @@
+{"Team Check":true,"FOV Radius":"800","Aimbot":true,"Show FOV":true,"Tracers":false,"Visuals Color":"Rainbow","ESP":true,"Aim Key":"MouseButton1"}
