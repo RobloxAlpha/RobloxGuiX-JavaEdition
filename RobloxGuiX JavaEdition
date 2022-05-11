@@ -1175,7 +1175,7 @@ local function AZCV_fake_script() -- ScriptHub.LocalScript
 			local script = Instance.new('LocalScript', PrisonLife)
 	
 			script.Parent.MouseButton1Click:Connect(function()
-				loadstring(game:HttpGet(('https://pastebin.com/stm8ir20'),true))()
+				loadstring(game:HttpGet(('https://pastebin.com/LpThaBuk'),true))()
 			end)
 		end
 		coroutine.wrap(HXPEV_fake_script)()
